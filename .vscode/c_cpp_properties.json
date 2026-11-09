@@ -1,0 +1,45 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/urs-wagner/Dokumente/PlatformIO/Projects/xmc4700_rust_blink/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/urs-wagner/Dokumente/PlatformIO/Projects/xmc4700_rust_blink/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=144000000L",
+                "XMC4700",
+                "ARM_MATH_DSP",
+                "ARM_MATH_CM4",
+                "USB0",
+                "_INIT_DECLARATION_REQUIRED",
+                "PLATFORMIO=60200",
+                "KIT_XMC47_RELAX",
+                "XMC4700_Relax_Kit",
+                "XMC4700_F144x2048",
+                "ARM_MATH_CM4",
+                "XMC4_SERIES",
+                ""
+            ],
+            "compilerPath": "/home/urs-wagner/.platformio/packages/toolchain-gccarmnoneeabi@1.100301.220327/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
